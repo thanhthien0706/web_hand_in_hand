@@ -1,0 +1,18 @@
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    --primary-color: #2c72b8;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box_grid-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

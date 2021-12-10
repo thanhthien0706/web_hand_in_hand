@@ -1,0 +1,60 @@
+#page_footer .box_footer_infor .box_header h5{
+    color: #557392;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+#page_footer .box_footer_infor .box_header h5::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #557392;
+}
+
+#page_footer .box_footer_infor .list_infor_box .item_infor{
+    margin-bottom:10px
+}
+
+#page_footer .box_footer_infor .list_infor_box .item_infor i{
+    margin-right: 5px;
+    color: red;
+}
+
+#page_footer .box_footer_infor .list_infor_box .item_infor .text_infor{
+    color: #777;
+    font-size: 16px;
+}
+
+#page_footer .box_footer_infor .list_infor_box .item_infor .text_infor .link_infor_footer{
+    text-decoration: none;
+    color: #557392;
+    transition: 0.5s;
+}
+
+#page_footer .box_footer_infor .list_infor_box .item_infor .text_infor .link_infor_footer:hover{
+    opacity: 0.8;
+}
+
+#page_footer .box_footer_infor .box_infor_follow{
+    width: 100%;
+    height: 150px;
+}
+
+#page_footer .box_footer_infor .box_infor_follow img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page_footer .box_footer_infor .box_infor_donate{
+    padding: 10px;
+    border: 2px solid #456382;
+}
+
+#page_footer .box_footer_infor .box_infor_donate p {
+    margin-bottom: 5px;
+    color: #777;
+}
