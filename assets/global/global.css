@@ -40,15 +40,9 @@ body {
         -ms-transform: translateX(-50%) !important;
         transform: translateX(-50%) !important;
     }
-}
-
-@media screen and (min-width: 850px) {
     .lg-y70 {
         bottom: 30%;
     }
-}
-
-@media screen and (min-width: 850px) {
     .lg-y20 {
         top: 20%;
     }
@@ -260,4 +254,49 @@ input[type="button"].primary,
 .hover-dark:hover h6,
 .hover-dark:hover a {
     color: #fff;
+}
+
+.relative {
+    position: relative !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #555;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-rendering: optimizeSpeed;
+}
+
+h3,
+h3 {
+    font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.off-canvas-center .nav-sidebar.nav-vertical>li>a {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.banner h1,
+.banner h2 {
+    font-weight: 700;
 }
